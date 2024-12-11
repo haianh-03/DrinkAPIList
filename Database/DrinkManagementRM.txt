@@ -1,0 +1,9 @@
+Drink (DrinkID_PK, Name, Quantity, Price, CategoryID_FK, BrandID_FK)
+
+Brand (BrandID_PK, Name)
+
+Category( CategoryID_PK, Name)
+
+Size (SizeID_PK, Name)
+
+Drink_Size(DrinkID_PK_FK, SizeID_PK_FK)
