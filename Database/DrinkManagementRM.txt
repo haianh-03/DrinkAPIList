@@ -1,9 +1,11 @@
-Drink (DrinkID_PK, Name, Quantity, Price, CategoryID_FK, BrandID_FK)
+Drink (DrinkID_PK, DrinkName, Description, CategoryID_FK)
 
-Brand (BrandID_PK, Name)
+Category( CategoryID_PK, CategoryName)
 
-Category( CategoryID_PK, Name)
+Size (SizeID_PK, SizeName)
 
-Size (SizeID_PK, Name)
+Drink_Size(DrinkID_PK_FK, SizeID_PK_FK, price)
 
-Drink_Size(DrinkID_PK_FK, SizeID_PK_FK)
+Topping( ToppingID_PK, ToppingName)
+
+Drink_Topping(DrinkID_PK_FK, ToppingID_PK_FK)
