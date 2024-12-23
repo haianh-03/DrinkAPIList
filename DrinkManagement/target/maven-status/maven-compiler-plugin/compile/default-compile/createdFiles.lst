@@ -1,0 +1,8 @@
+dtos\DrinkDetailDTO.class
+com\firstproject\drinkmanagement\resources\JakartaEE10Resource.class
+dtos\DrinkDTO.class
+com\firstproject\drinkmanagement\JakartaRestConfiguration.class
+repositories\DrinkRepository.class
+controllers\DrinkController.class
+utils\DBUtils.class
+services\DrinkService.class
